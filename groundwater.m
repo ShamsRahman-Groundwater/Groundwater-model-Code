@@ -1,3 +1,4 @@
+% This is the function that calls the PALADIGM groundwater flow model.
 function [Hnew,runoff] = groundwater(model_topography,topo_resolution, ...
                          R,S,T,Hold,r_inac,c_inac,dt,sea_level)
     
